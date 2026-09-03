@@ -1,3 +1,5 @@
+import 'dart:ui' show Size;
+import 'package:flutter/material.dart';
 import '../models/arch_symbol.dart';
 
 class SymbolLibrary {
