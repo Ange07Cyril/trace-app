@@ -9,23 +9,17 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  file_picker: ^6.1.1
+  file_picker: ^8.0.0
   pdfx: ^2.5.0
   pdf: ^3.10.8
-  share_plus: ^7.2.1
+  share_plus: ^10.0.0
   path_provider: ^2.1.2
   uuid: ^4.3.3
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  
-  flutter_launcher_icons: ^0.13.0  # ← AJOUTEZ CETTE LIGNE
-
-flutter_launcher_icons:
-  android: true
-  ios: true
-  image_path: "assets/icon/app_icon.png"
+  flutter_lints: ^3.0.0
 
 flutter:
   uses-material-design: true
